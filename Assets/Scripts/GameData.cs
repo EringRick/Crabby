@@ -121,6 +121,8 @@ public class GameData : MonoBehaviour
         //        playerShield = playerShield + (playerShield * 0.05);
         //        playerHealth = playerHealth + (playerHealth * 0.05);
         //}
+
+        // дабы не писать дохуя // можно заключить регион в комментарии через /* (всё что между ними будет комментарием) */
     }
     public static class itemList
     {

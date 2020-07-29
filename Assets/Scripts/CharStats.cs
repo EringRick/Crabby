@@ -24,6 +24,9 @@ public class CharStats : MonoBehaviour
     }
     private void Update()
     {
+
+        // Убрать из апдейта. создать отдельную функцию, сделать зависимость от щелчков мыши по кнопке
+
         int getChar;
         getChar = PlayerPrefs.GetInt(charSelected);
         switch (getChar)
@@ -55,7 +58,7 @@ public class CharStats : MonoBehaviour
                 break;
             case 2:
                 GameObject Turtle = GameObject.Find("tort");
-                PlayerScript tortData = Turtle.GetComponent<PlayerScript>();
+                PlayerScript tortData = Turtle.GetComponent<PlayerScript>();  
                 string tortName = tortData.playerName;
                 int tortMoney = tortData.playerMoney;
                 int tortLevel = tortData.playerLevel;
