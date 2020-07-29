@@ -8,7 +8,7 @@ public class SceneChanger : MonoBehaviour
 {
     public void WorldMapLoad()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(1); // Лучше использовать имена сцен, чтобы не зависеть от их расстановке в билдере
     }
     public void CharInfoLoad()
     {
